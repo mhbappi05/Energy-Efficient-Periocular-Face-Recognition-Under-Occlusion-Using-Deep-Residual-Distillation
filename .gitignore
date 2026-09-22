@@ -1,0 +1,34 @@
+# --- Python / notebooks ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+.env
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- dlib landmark model (download separately) ---
+shape_predictor_68_face_landmarks.dat
+shape_predictor_68_face_landmarks.dat.bz2
+
+# --- Raw & processed image datasets (too large for git; keep local / Drive) ---
+AFDB_face_dataset/
+Local Dataset/
+Processed_Periocular/
+Local_Processed_Periocular/
+Model_Data/
+Local_Model_Data/
+
+# Temporary Colab / local extract folders
+local_data/
+content/
